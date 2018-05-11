@@ -1,0 +1,6 @@
+<!--pages/page-3/page-3.wxml-->
+<view style='background-color:pink'
+bind:touchstart="swiperTouchstart"
+bind:touchmove="swiperTouchmove"
+bind:touchend="swiperTouchend"
+>pages/page-3/page-3.wxml</view>

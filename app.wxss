@@ -1,0 +1,16 @@
+/**app.wxss**/
+
+.container {
+   padding: 200rpx 0;
+}
+.relative{
+	position: relative;
+}
+view {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-sizing: border-box;
+   height: 100vh;
+   width: 100vw;
+}

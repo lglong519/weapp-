@@ -1,0 +1,29 @@
+{
+    "pages": [
+        "pages/page-1/page-1",
+        "pages/page-2/page-2",
+        "pages/page-3/page-3"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/page-1/page-1",
+                "text": "1"
+            },
+            {
+                "pagePath": "pages/page-2/page-2",
+                "text": "2"
+            },
+            {
+                "pagePath": "pages/page-3/page-3",
+                "text": "3"
+            }
+        ]
+    }
+}

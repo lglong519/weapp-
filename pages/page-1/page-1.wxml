@@ -1,0 +1,6 @@
+<!--pages/page-1/page-1.wxml-->
+<view class='relative' style='background-color:antiquewhite' 
+bind:touchstart="swiperTouchstart"
+bind:touchmove="swiperTouchmove"
+bind:touchend="swiperTouchend"
+ >pages/page-1/page-1.wxml</view>

@@ -1,0 +1,26 @@
+{
+  "name": "weapp-page-swiper",
+  "version": "1.0.0",
+  "description": "weapp滑动切换页",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lglong519/weapp-page-swiper.git"
+  },
+  "keywords": [
+    "weapp",
+    "swiper"
+  ],
+  "author": "lglong519",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lglong519/weapp-page-swiper/issues"
+  },
+  "homepage": "https://github.com/lglong519/weapp-page-swiper#readme",
+  "devDependencies": {
+    "eslint-config-lglong519": "github:lglong519/eslint-config"
+  }
+}
