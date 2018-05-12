@@ -1,6 +1,6 @@
 // pages/page-1/page-1.js
 const PageSwiper = require('../../utils/PageSwiper');
-const swiper = new PageSwiper({
+const swiper = PageSwiper({
 	prev: '/pages/page-3/page-3',
 	next: '/pages/page-2/page-2',
 	type: 'switchTab'
@@ -18,9 +18,6 @@ Page(Object.assign(swiper, {
 	 * 生命周期函数--监听页面加载
 	 */
 	onLoad (options) {
-		this.setData({
-			x:2
-		})
 	},
 
 	/**

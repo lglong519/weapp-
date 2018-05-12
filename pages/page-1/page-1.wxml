@@ -1,5 +1,5 @@
 <!--pages/page-1/page-1.wxml-->
-<view class='relative' style='background-color:antiquewhite' 
+<view class='relative' style='background-color:antiquewhite;left:{{swiperX}}' 
 bind:touchstart="swiperTouchstart"
 bind:touchmove="swiperTouchmove"
 bind:touchend="swiperTouchend"

@@ -5,6 +5,7 @@
 }
 .relative{
 	position: relative;
+	transition: left .1s linear;
 }
 view {
    display: flex;

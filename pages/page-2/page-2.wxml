@@ -1,2 +1,2 @@
 <!--pages/page-2/page-2.wxml-->
-<view style='background-color:darkseagreen' bind:touchstart="swiperTouchstart" bind:touchmove="swiperTouchmove" bind:touchend="swiperTouchend">pages/page-2/page-2.wxml</view>
+<view class='relative' style='background-color:darkseagreen;left:{{swiperX}}' bind:touchstart="swiperTouchstart" bind:touchmove="swiperTouchmove" bind:touchend="swiperTouchend">pages/page-2/page-2.wxml</view>
