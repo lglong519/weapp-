@@ -1,5 +1,5 @@
 // pages/page-3/page-3.js
-const PageSwiper = require('../../utils/PageSwiper');
+const PageSwiper = require('../../utils/pageSwiper.min');
 const swiper = new PageSwiper({
 	prev: '/pages/page-2/page-2',
 	next: '/pages/page-1/page-1',
