@@ -7,7 +7,7 @@ module.exports = class {
 	 * @param {String} params.next page on the right side
 	 * @param {String} params.type switchTab reLaunch redirectTo navigateTo
 	 */
-	constructor (params) {
+	constructor(params) {
 		if (!params || !params.prev || !params.next || !params.type) {
 			throw new TypeError('Invalid params');
 		}
